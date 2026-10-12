@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Команда Соломенных Шляп — Фан-сайт</title>
+</head>
+
+<body>
+    <header>
+        <h1>Команда Соломенных Шляп</h1>
+        <p>Чуваки найдут сокровище Ван-Пис! Они изменили мир.</p>
+        <nav>
+            <a href="#team">Команда</a>
+            <a href="#bounty">Награды</a>
+            <a href="#join">Присоединиться</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="team">
+            <h2>Список персонажей</h2>
+            <ul>
+                <li class="card">
+                    <h3>Монки Д. Луффи</h3>
+                    <p>Луффи — капитан команды «Пираты Соломенной Шляпы». Его мечта — стать Королём пиратов, найдя
+                        легендарное сокровище Ван-Пис.</p>
+                    <img src="images/luffi.jpg" alt="Луффи" width="200">
+                    <a href="https://onepiece.fandom.com/ru/wiki/Монки_Д._Луффи" target="_blank" rel="noopener">Узнать
+                        больше о будущем короле пиратов!</a>
+                </li>
+                <li class="card">
+                    <h3>Ророноа Зоро</h3>
+                    <p>Его мечта — стать величайшим фехтовальщиком в мире. Он первый присоединился к команде Луффи.</p>
+                    <img src="images/zoro.jpg" alt="Зоро" width="200">
+                    <a href="https://onepiece.fandom.com/ru/wiki/Ророноа_Зоро" target="_blank" rel="noopener">Цель... не
+                        потеряться.</a>
+                </li>
+                <li class="card">
+                    <h3>Винсмок Санджи</h3>
+                    <p>Мечта Санджи — найти Олл-Блю, место, где, по слухам, собирается рыба из всех четырёх морей.
+                        Он считает, что это позволит ему готовить любое блюдо в мире.</p>
+                    <img src="images/sanji.jpg" alt="Санджи" width="200">
+                    <a href="https://onepiece.fandom.com/ru/wiki/Винсмок_Санджи" target="_blank" rel="noopener">Доступно
+                        только красивым тянкам.</a>
+                </li>
+                <li class="card">
+                    <h3>Нами</h3>
+                    <p>Очаровательный штурман команды! Цель — нарисовать карту мира.</p>
+                    <img src="images/nami.jpg" alt="Нами" width="200">
+                    <a href="https://onepiece.fandom.com/ru/wiki/Нами" target="_blank" rel="noopener">Вход на сайт —
+                        миллион белли.</a>
+                </li>
+                <li class="card">
+                    <h3>Чоппер</h3>
+                    <p>Чудо-олененок и супер-врач!</p>
+                    <img src="images/chopper.jpg" alt="Чоппер" width="200">
+                    <a href="https://onepiece.fandom.com/ru/wiki/Тони_Тони_Чоппер" target="_blank" rel="noopener">Он
+                        не милый! Приносите сладости...</a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="bounty">
+            <h2>Награды</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Персонаж</th>
+                        <th>Награда</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Монки Д. Луффи</td>
+                        <td>3 000 000 000 белли</td>
+                    </tr>
+                    <tr>
+                        <td>Ророноа Зоро</td>
+                        <td>1 111 000 000 белли</td>
+                    </tr>
+                    <tr>
+                        <td>Винсмок Санджи</td>
+                        <td>1 032 000 000 белли</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="join">
+            <h2>Присоединиться к команде</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" name="name" placeholder="Введите имя" required>
+                </p>
+
+                <p>
+                    <label for="role">Роль</label>
+                    <select id="role" name="role">
+                        <option value="captain">Капитан</option>
+                        <option value="swordsman">Мечник</option>
+                        <option value="cook">Повар</option>
+                        <option value="navigator">Штурман</option>
+                        <option value="doctor">Врач</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="bounty-input">Желаемая награда (в белли):</label>
+                    <input type="number" id="bounty-input" name="bounty" min="0" step="1000000" placeholder="1000000">
+                </p>
+
+                <p>
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">Я сделаю все ради своей цели!</label>
+                </p>
+
+                <p>
+                    <label for="email">Почта для новостных чаек</label>
+                    <input type="email" id="email" name="email" placeholder="Введите почту" required>
+                </p>
+
+                <p>
+                    <label for="password">Секретный код</label>
+                    <input type="password" id="password" name="password">
+                </p>
+
+                <button type="submit">Отправиться на приключение</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Фан-сайт. Сделано с любовью к Ван-Пис.</p>
+    </footer>
+</body>
+
+</html>
