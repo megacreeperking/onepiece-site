@@ -29,7 +29,6 @@ h3 {
 h1 {
     font-size: 48px;
     text-align: center;
-
 }
 
 h2 {
@@ -87,7 +86,7 @@ section {
 }
 
 section:last-of-type {
-    margin-top: 0;
+    margin-bottom: 0;
 }
 
 p {
@@ -99,7 +98,7 @@ p {
     border-radius: 12px;
     padding: 24px;
     margin-bottom: 24px;
-    box-shadow: 0 4px 12px rgba(61, 43, 31, 0.8);
+    box-shadow: 0 4px 12px rgba(61, 43, 31, 0.08);
 }
 
 .card img {
@@ -117,6 +116,7 @@ form {
     background-color: #ffffff;
     padding: 30px;
     box-shadow: 0 4px 12px rgba(61, 43, 31, 0.08);
+    border-radius: 6px;
 }
 
 form p {
@@ -141,6 +141,7 @@ form select {
     font-family: inherit;
     font-size: 16px;
     background-color: #fdfaf5;
+    border-radius: 12px;
 }
 
 footer {
